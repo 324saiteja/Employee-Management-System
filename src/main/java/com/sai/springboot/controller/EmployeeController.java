@@ -1,4 +1,4 @@
-package com.javabymadhu.springboot.controller;
+package com.sai.springboot.controller;
 
 import java.util.HashMap;
 import java.util.List;
@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.javabymadhu.springboot.exception.ResourceNotFoundException;
-import com.javabymadhu.springboot.model.Employee;
-import com.javabymadhu.springboot.repository.EmployeeRepository;
+import com.sai.springboot.exception.ResourceNotFoundException;
+import com.sai.springboot.model.Employee;
+import com.sai.springboot.repository.EmployeeRepository;
 
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
